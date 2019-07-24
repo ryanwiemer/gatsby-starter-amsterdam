@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-starter-amsterdam",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "lint:js": "eslint --ext .js,.jsx .",
+    "lint:css": "stylelint 'src/**/*.js'",
+    "check-pretty": "prettier -l {,src/**/}*.{js,jsx,json,css,scss}",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "yarn run lint:css && yarn run lint:js && yarn run check-pretty",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.13.38",
+    "gatsby-theme-amsterdam": "^0.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-gatsby-standard": "^2.2.0",
+    "prettier": "^1.18.2",
+    "stylelint": "10.1.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.8.0"
+  }
+}
