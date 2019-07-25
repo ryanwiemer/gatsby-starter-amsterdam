@@ -5081,7 +5081,7 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-framer-motion@^1.2.2:
+framer-motion@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-1.3.0.tgz#bdd16ff471f524def2fec0ac2a63fecc236dedb7"
   integrity sha512-NxI2mPf8A2asiSoqWNiWQTsDWuGwavEGJoGZGFic8wAcS2Ylcw22aQ2DZgTlEjzf3F9eK8Cit6Srro3jtxP8IQ==
@@ -5446,14 +5446,14 @@ gatsby-telemetry@^1.1.7:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-theme-amsterdam@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-amsterdam/-/gatsby-theme-amsterdam-0.0.1.tgz#9450d354de4176bf5c684232bffda85ecd379db5"
-  integrity sha512-xAAagj9HL8/5zJQYWDn9UwV0COAyPHinft6Jw/eB98bSH/uIk2O1IzsrxD81aYyOFwwF0JIvAZbZFYYvyXvCvA==
+gatsby-theme-amsterdam@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-amsterdam/-/gatsby-theme-amsterdam-0.0.2.tgz#ed930104a27f6a48612d932d0c42103aca258fe3"
+  integrity sha512-2VpuQ3k+Yj0bSMgQoI/UIrn6yzlufFGXhJxT1s0yallhgXRaf6y2A+9C9k7nX3bBHbKJeqE1GfIGalqeRUO1Dg==
   dependencies:
     babel-plugin-styled-components "^1.10.6"
-    framer-motion "^1.2.2"
-    gatsby "^2.13.38"
+    framer-motion "^1.3.0"
+    gatsby "^2.13.39"
     gatsby-awesome-pagination "^0.3.4"
     gatsby-image "^2.2.4"
     gatsby-plugin-manifest "^2.2.3"
@@ -5514,7 +5514,7 @@ gatsby-transformer-sharp@^2.2.1:
     semver "^5.6.0"
     sharp "^0.22.1"
 
-gatsby@^2.13.38:
+gatsby@^2.13.38, gatsby@^2.13.39:
   version "2.13.39"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.13.39.tgz#fc48d25607b69bec469b456e70b47711cc4ab99f"
   integrity sha512-J8lWFD0mEoUwiDURzRQXHlyvyLgZtzVskg19SGifJ/U3S4/VVm6U2udELxpFfOz5bMT4ir2WQJ3ZEBew+fu8Rw==

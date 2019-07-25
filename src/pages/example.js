@@ -6,36 +6,43 @@ import SEO from 'gatsby-theme-amsterdam/src/components/SEO'
 const ExamplePage = ({ data }) => {
   return (
     <Container>
-      <SEO
-        title="Example Page"
-        description="This is an example of a regular page"
-      />
+      <SEO title="Example Page" description="This is just an example page" />
       <Content>
         <h1>Example Page</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          tristique, lacus sed suscipit mattis, arcu ipsum convallis diam, eu
-          egestas ligula tellus sed mi. Pellentesque posuere justo sit amet
-          congue pretium. Nulla tincidunt interdum leo, in tempor lectus
-          pellentesque sit amet. Vivamus ut eros et eros iaculis lacinia at vel
-          purus. Curabitur condimentum augue sit amet risus tincidunt, vel
-          facilisis odio pharetra. Cras ex sem, porta in eleifend sed, ultricies
-          ultricies elit. Fusce massa urna, ornare eget velit non, dignissim
-          ullamcorper ipsum. Suspendisse vitae tincidunt lorem. Maecenas sodales
-          lorem mauris, eget bibendum lorem pharetra sed. Curabitur congue
-          tristique enim, et venenatis risus commodo at. Sed laoreet, nunc id
-          lacinia dignissim, nulla neque facilisis libero, id porttitor ligula
-          lectus sit amet quam. Vivamus mollis lacus et dui lobortis, ac
-          elementum tortor iacu
+          This is just a regular page{' '}
+          <a
+            href="https://www.gatsbyjs.org/docs/recipes/#creating-pages-automatically"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            created automatically
+          </a>{' '}
+          by placing a <code>React</code> component in{' '}
+          <code>src/pages/example.js</code>. In the source code you will see an
+          example of how to{' '}
+          <a
+            href="https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            shadow
+          </a>{' '}
+          components available in the theme such as the
+          <code>Container</code>, <code>Content</code> and <code>SEO</code>{' '}
+          components.
         </p>
         <p>
-          pulvinar. Nam ac ultrices augue, id finibus ligula. Ut ut est a felis
-          volutpat finibus eu quis justo. Phasellus tincidunt rutrum bibendum.
-          Suspendisse eu mauris in sem vestibulum euismod. Quisque tincidunt,
-          justo vitae tincidunt facilisis, libero lacus eleifend elit, in
-          rhoncus arcu nulla facilisis purus. Maecenas condimentum luctus
-          ligula, sit amet sodales risus sagittis nec. Aliquam erat volutpat.
-          Curabitur vel porttitor quam.
+          For more information about the Gatsby Theme powering this website
+          visit the{' '}
+          <a
+            href="https://github.com/ryanwiemer/gatsby-theme-amsterdam"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Gatsby Theme Amsterdam GitHub Repo
+          </a>
+          .
         </p>
       </Content>
     </Container>
