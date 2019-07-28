@@ -33,7 +33,7 @@ const ExamplePage = ({ data }) => {
           components.
         </p>
         <p>
-          For more information about the Gatsby Theme powering this website
+          For more information about the Gatsby theme powering this website
           visit the{' '}
           <a
             href="https://github.com/ryanwiemer/gatsby-theme-amsterdam"
