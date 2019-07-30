@@ -5456,10 +5456,10 @@ gatsby-telemetry@^1.1.7:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-theme-amsterdam@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-amsterdam/-/gatsby-theme-amsterdam-0.0.8.tgz#c8a1ac8f48df4a92605c3090fc818be5087cd479"
-  integrity sha512-MAIsOGNZTmK4Q1vFozSCzE5HBJ/Qsc6nJTqBMvOjyaUxWKVjgbeIKX01r/3CwHv5XEApQ6ysvxudXGoRXlt6fQ==
+gatsby-theme-amsterdam@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-amsterdam/-/gatsby-theme-amsterdam-0.0.9.tgz#506351662dc7760c1dfc00b3b47cc17bf3239545"
+  integrity sha512-Skm4gvdCmdJan3tCk7B0vNKpnarnNYtC1RE1XTrMfhUWLVLOnc4BOtzD1Beb/V6lABCV6RrT0uEpFat0dRO/IQ==
   dependencies:
     babel-plugin-styled-components "^1.10.6"
     framer-motion "^1.4.0"
