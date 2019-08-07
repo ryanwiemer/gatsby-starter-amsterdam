@@ -28,9 +28,8 @@ const ExamplePage = ({ data }) => {
           >
             shadow
           </a>{' '}
-          components available in the theme such as the
-          <code>Container</code>, <code>Content</code> and <code>SEO</code>{' '}
-          components.
+          components available in the theme such as the <code>Container</code>,{' '}
+          <code>Content</code> and <code>SEO</code> components.
         </p>
         <p>
           For more information about the Gatsby theme powering this website
