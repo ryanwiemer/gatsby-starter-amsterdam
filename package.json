@@ -15,10 +15,10 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^2.13.52",
-    "gatsby-theme-amsterdam": "^0.0.12",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "gatsby": "^2.13.57",
+    "gatsby-theme-amsterdam": "^0.0.13",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "devDependencies": {
     "eslint": "5.16.0",
