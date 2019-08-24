@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-amsterdam",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Ryan Wiemer <ryan@ryanwiemer.com>",
   "license": "MIT",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "gatsby": "^2.13.75",
-    "gatsby-theme-amsterdam": "^0.1.1",
+    "gatsby-theme-amsterdam": "^0.1.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
