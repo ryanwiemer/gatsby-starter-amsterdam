@@ -6575,10 +6575,10 @@ gatsby-telemetry@^1.1.48:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-amsterdam@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-amsterdam/-/gatsby-theme-amsterdam-1.0.2.tgz#facdf50f5db7fb83d0c5805a83fd81bf088f0efd"
-  integrity sha512-SdVBmrMAddm5QIB020erGk2C65Y+yyn1t+gqYn+De/158DeMbW8dFaPGh0i8Ij/lFoyRn4ptqfauBvZjLgMZaA==
+gatsby-theme-amsterdam@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-amsterdam/-/gatsby-theme-amsterdam-1.0.3.tgz#349c4030eeff3b24f249f7ad62662c825a3f83f4"
+  integrity sha512-rDeIx2jHWkxlarXfn546DX9+jizxTxqB0x7FbmlV0MolfBLBlQJ4y+c0L0b1KOs6GncpA2ZyvD0SnFbnckZ1RQ==
   dependencies:
     "@emotion/core" "^10.0.27"
     "@emotion/styled" "^10.0.27"
