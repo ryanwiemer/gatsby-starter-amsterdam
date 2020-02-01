@@ -45,7 +45,11 @@ const Content = styled.div`
 const ExamplePage = ({ data }) => {
   return (
     <Container>
-      <SEO title="Example Page" description="This is just an example page" />
+      <SEO
+        title="Example Page"
+        description="This is just an example page"
+        slug="/example/"
+      />
       <Title>Example Page</Title>
       <Content>
         <p>
