@@ -28,5 +28,17 @@ module.exports = {
       resolve: 'gatsby-theme-amsterdam',
       options: {},
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Gatsby Theme Amsterdam`,
+        short_name: `Amsterdam`,
+        background_color: `#f5f0eb`,
+        theme_color: `#f5f0eb`,
+        start_url: `/`,
+        display: `standalone`,
+        icon: require.resolve('./src/images/favicon.png'),
+      },
+    },
   ],
 }
