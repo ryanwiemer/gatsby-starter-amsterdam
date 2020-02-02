@@ -15,9 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^2.19.10",
-    "gatsby-plugin-manifest": "^2.2.40",
-    "gatsby-theme-amsterdam": "^1.0.3",
+    "gatsby": "^2.19.12",
+    "gatsby-plugin-manifest": "^2.2.41",
+    "gatsby-theme-amsterdam": "^1.0.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
