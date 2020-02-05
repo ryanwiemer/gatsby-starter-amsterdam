@@ -43,11 +43,6 @@ tags: [example, demo]
 1. Item 2
 1. Item 3
 
-<!-- MDX example -->
-import Example from './Example'
-
-<Example>Mdx example. Click to increment.</Example>
-
 <!-- Images -->
 ![test-image](cover.jpg)
 
