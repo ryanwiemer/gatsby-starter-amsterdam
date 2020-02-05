@@ -29,6 +29,7 @@ module.exports = {
       resolve: 'gatsby-theme-amsterdam',
       options: {},
     },
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

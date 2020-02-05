@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: ryanwiemer/gatsby-starter-amsterdam
+media_folder: static/media
+public_folder: /media
+collections:
+  - name: posts
+    label: Posts
+    label_singular: 'Post'
+    folder: content
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    create: true
+    editor:
+      preview: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: 'Cover Image'
+        name: 'cover'
+        widget: 'image'
+      - label: 'Date'
+        name: 'date'
+        widget: 'date'
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
