@@ -1,11 +1,12 @@
 {
   "name": "gatsby-starter-amsterdam",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Ryan Wiemer <ryan@ryanwiemer.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "serve": "gatsby serve",
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:css": "stylelint 'src/**/*.js'",
@@ -15,19 +16,19 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^4.1.4",
-    "gatsby-plugin-manifest": "^4.1.3",
-    "gatsby-theme-amsterdam": "^2.0.0",
+    "gatsby": "^4.3.0",
+    "gatsby-plugin-manifest": "^4.3.0",
+    "gatsby-theme-amsterdam": "^2.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.31.0",
+    "eslint": "^8.3.0",
     "eslint-config-gatsby-standard": "^3.0.2",
-    "prettier": "^2.4.1",
-    "stylelint": "14.0.1",
+    "prettier": "^2.5.0",
+    "stylelint": "14.1.0",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^23.0.0",
+    "stylelint-config-standard": "^24.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0"
   },
